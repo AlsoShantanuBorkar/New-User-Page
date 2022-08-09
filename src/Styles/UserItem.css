@@ -1,0 +1,31 @@
+.user-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem ;
+    background: #4b4b4b;
+    margin: 1rem;
+    color: white;
+    border-radius:0.75rem ;
+    letter-spacing: .1rem;
+}
+
+.user-item .username{
+    font-size: 1.8rem;
+}
+.user-item .age{
+    font-size: 1.7rem;
+}
+
+@media (max-width:45rem){
+    .user-item{
+        flex-direction: column;
+        letter-spacing: normal;
+    }
+    .user-item .username{
+        font-size: 1.5rem;
+    }
+    .user-item .age{
+        font-size: 1.4rem;
+    }
+}

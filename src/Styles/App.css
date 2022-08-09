@@ -1,0 +1,14 @@
+.app{
+    background-color: rgb(42, 42, 42);
+    padding: 1rem;
+    width: 45rem;
+    margin: 1rem auto;
+    border-radius: 0.75rem;
+}
+
+@media (max-width:45rem){
+    .app{
+        width: 25rem;
+        margin: 1rem auto;
+    }
+}
